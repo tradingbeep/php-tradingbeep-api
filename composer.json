@@ -1,0 +1,31 @@
+{
+    "name": "molotoksoftware/php-tradingbeep-api",
+    "description": "PHP TradingBeep API is a PHP library for the TradingBeep.com API designed to be easy to use. ",
+    "keywords": ["tradingbeep","cryptocurrency","exchanges", "indicators", "signals"],
+    "authors": [
+        {
+            "name": "Ivan Teleshun",
+            "email": "support@molotoksoftware.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "repositories": [ {
+            "type": "vcs",
+            "url": "https://github.com/tradingbeep/php-tradingbeep-api"
+    }],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*"
+    },
+    "config": {
+    	"optimize-autoloader": true,
+      "minimum-stability": "stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tradingbeep\\": "src/"
+        }
+    }
+}
