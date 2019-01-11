@@ -13,7 +13,7 @@
     "license": "MIT",
     "repositories": [ {
             "type": "vcs",
-            "url": "https://github.com/tradingbeep/php-tradingbeep-api"
+            "url": "https://github.com/molotoksoftware/php-tradingbeep-api"
     }],
     "require": {
         "php": ">=7.0",
